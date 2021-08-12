@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+
+.center {
+    text-align:center;
+}
+
+.basic {
+    display: table; 
+    margin-left: auto; 
+    margin-right: auto; 
+    color: white; 
+    font-family: 'Work Sans', sans-serif;
+}
+
+.home {
+    color: #ff0000;
+}
+
+.about {
+    color: #00a2ff;
+}
+
+.projects {
+    color: #fffb00;
+}
+
+.donation {
+    color: #33ff00;
+}
+
+.contact {
+    color: #a200ff;
+}
+
+footer {
+    text-align: center;
+}
+
+body {
+    background-color: rgb(15, 15, 15);
+}
