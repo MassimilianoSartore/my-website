@@ -2,6 +2,7 @@
 
 <html lang="en">
 	<head>
+		<script src="https://unpkg.com/scrollreveal@4"></script>
 		<title>Massimiliano Sartore</title>
 		<meta charset="utf-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,12 +22,15 @@
 			</nav>
 		</header>
 		<hr>
-		<div>
+		<div class="about_">
 			<h2 ><a name="about">👋 Hello,</a></h2>
 			<p>My name is Massimiliano Sartore. I’m a software developer 👨‍💻 from Italy 🇮🇹. I love to learn about new technologies and leverage them to solve real-life problems ✨</p>
 		</div>
-		<div>
-			<h2 ><a name="about">⚙️ Projects</a></h2>
+		<script>
+			ScrollReveal().reveal('.about_');
+		</script>
+		<div class="projects_">
+			<h2 ><a name="projects">⚙️ Projects</a></h2>
 				<table class="padding">
 				<tr>
 					<td>
@@ -75,12 +79,18 @@
 				</table>​​​	
 			</ul>
 		</div>
-		<div>
+		<script>
+			ScrollReveal().reveal('.projects_');
+		</script>
+		<div class="contact_">
 			<h2 ><a name="contact">📫 Contact</a></h2>
 			<ul>
 				<li>Email: massimiliano.sartore@pm.me</li>
 			</ul>
 		</div>
+		<script>
+			ScrollReveal().reveal('.contact_');
+		</script>
 		<nav class="center">
 			<a href="https://twitter.com/msartore_" class="twitter-follow-button" data-show-count="false">Follow @TwitterDev</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 			<a class="github-button" href="https://github.com/msartore" data-color-scheme="no-preference: dark; light: dark; dark: dark;" data-size="large" aria-label="Follow @msartore on GitHub">Follow @msartore</a>
