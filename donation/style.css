@@ -12,26 +12,105 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-.home {
+.sliding-middle-out-home {
     color: #ff0000;
-}
-
-.about {
+      display: inline-block;
+      position: relative;
+      padding-bottom: 3px;
+  }
+  .sliding-middle-out-home:after {
+      content: '';
+      display: block;
+      margin: auto;
+      height: 3px;
+      width: 0px;
+      background: transparent;
+      transition: width .5s ease, background-color .5s ease;
+  }
+  .sliding-middle-out-home:hover:after {
+      width: 100%;
+      background: #ff0000;
+  }
+  
+  .sliding-middle-out-about {
     color: #00a2ff;
-}
-
-.projects {
+      display: inline-block;
+      position: relative;
+      padding-bottom: 3px;
+  }
+  .sliding-middle-out-about:after {
+      content: '';
+      display: block;
+      margin: auto;
+      height: 3px;
+      width: 0px;
+      background: transparent;
+      transition: width .5s ease, background-color .5s ease;
+  }
+  .sliding-middle-out-about:hover:after {
+      width: 100%;
+      background: #00a2ff;
+  }
+  
+  .sliding-middle-out-projects {
     color: #fffb00;
-}
-
-.donation {
+      display: inline-block;
+      position: relative;
+      padding-bottom: 3px;
+  }
+  .sliding-middle-out-projects:after {
+      content: '';
+      display: block;
+      margin: auto;
+      height: 3px;
+      width: 0px;
+      background: transparent;
+      transition: width .5s ease, background-color .5s ease;
+  }
+  .sliding-middle-out-projects:hover:after {
+      width: 100%;
+      background: #fffb00;
+  }
+  
+  .sliding-middle-out-donation {
     color: #33ff00;
-}
-
-.contact {
+      display: inline-block;
+      position: relative;
+      padding-bottom: 3px;
+  }
+  .sliding-middle-out-donation:after {
+      content: '';
+      display: block;
+      margin: auto;
+      height: 3px;
+      width: 0px;
+      background: transparent;
+      transition: width .5s ease, background-color .5s ease;
+  }
+  .sliding-middle-out-donation:hover:after {
+      width: 100%;
+      background: #33ff00;
+  }
+  
+  .sliding-middle-out-contact {
     color: #a200ff;
-}
-
+      display: inline-block;
+      position: relative;
+      padding-bottom: 3px;
+  }
+  .sliding-middle-out-contact:after {
+      content: '';
+      display: block;
+      margin: auto;
+      height: 3px;
+      width: 0px;
+      background: transparent;
+      transition: width .5s ease, background-color .5s ease;
+  }
+  .sliding-middle-out-contact:hover:after {
+      width: 100%;
+      background: #a200ff;
+  }
 footer {
     text-align: center;
 }
