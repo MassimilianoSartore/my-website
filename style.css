@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap');
 
 .center {
     text-align:center;
@@ -9,7 +9,7 @@
     margin-left: auto; 
     margin-right: auto; 
     color: white; 
-    font-family: 'Work Sans', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .btn {
@@ -70,8 +70,15 @@
 .btn:active:before {
   width: 120%;
   padding-top: 120%;
-  
+
   transition: width .2s ease-out, padding-top .2s ease-out;
+}
+
+.m {
+	background: -webkit-linear-gradient(#fa5521, #5128a5);
+	-webkit-background-clip: text;
+	background-clip: text;
+	-webkit-text-fill-color: transparent;
 }
 
 /* Styles, not important */
