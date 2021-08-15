@@ -130,6 +130,91 @@
     background: #a200ff;
 }
 
+.btn {
+    position: relative;
+  
+    display: flex;
+    margin: 30px auto;
+    align-items:center;
+    padding: 0;
+  
+    overflow: hidden;
+  
+    border-width: 0;
+    outline: none;
+    border-radius: 15px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, .6);
+    
+    color: #ecf0f1;
+    font-family: 'Open Sans', sans-serif;
+    
+    transition: background-color .3s;
+
+    padding: 12px 24px;
+
+    text-align: center;
+}
+
+.btn > * {
+    position: relative;
+}
+
+.btn:before {
+    content: "";
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+
+    display: block;
+    width: 0;
+    padding-top: 0;
+        
+    border-radius: 100%;
+
+    background-color: rgba(236, 240, 241, .3);
+
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.btn:active:before {
+    width: 120%;
+    padding-top: 120%;
+
+    transition: width .2s ease-out, padding-top .2s ease-out;
+}
+
+.btn a {
+    display: block;
+    padding-left: 10px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.twitterButton {
+    background-color: #1ca0ee;
+}
+
+.twitterButton:hover, .twitterButton:focus {
+    background-color: #1888c8;
+}
+
+.githubButton {
+    background-color: #1b1e23;
+}
+
+.githubButton:hover, .githubButton:focus {
+    background-color: #101114;
+}
+
 footer {
     text-align: center;
 }
