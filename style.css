@@ -57,8 +57,11 @@ ul[id="sidenavul"] li {
     margin: 30px;
 }
 
-div[id="social"] svg {
-    margin-top: 30px;
+div[id="social"] a  {
+    display: inline-block;
+}
+
+section[id="about"] a, div[id="social"] a {
     margin-right: 30px;
 }
 
