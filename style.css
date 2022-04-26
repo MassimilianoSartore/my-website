@@ -32,11 +32,12 @@ main {
     padding-right: 10px;
     grid-area: main; 
 }
+
 footer { 
-    padding-left: 10px;
-    padding-right: 10px;
+    margin-top: 10%;
+    margin-left: 10px;
+    margin-bottom: 30px;
     grid-area: footer; 
-    font-size: xx-small;
 }
 
 ul {
@@ -63,6 +64,11 @@ div[id="social"] a  {
 
 section[id="about"] a, div[id="social"] a {
     margin-right: 30px;
+}
+
+section[id="404"] {
+    text-align: center;
+    margin: 10%;
 }
 
 header nav ul a {
