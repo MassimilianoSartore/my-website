@@ -43,7 +43,7 @@ footer {
     grid-area: footer; 
 }
 
-ul {
+ul[id="sidenavul"], header nav ul {
     list-style: none;
 }
 
@@ -51,10 +51,7 @@ header nav ul {
     display: flex;
     padding: 0;
     text-align: center;
-}
-
-ul {
-    padding: 0px;
+    
 }
 
 ul[id="sidenavul"] li {
@@ -146,10 +143,6 @@ h3, h2 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
-h2 {
-    padding-top: 100px;
-}
-
 .navbar {
     position: absolute;
     right: 0px;
@@ -183,7 +176,6 @@ h2 {
         visibility: visible;
     }
 }
-  
 
 @media (min-width: 70em) {
     #title {
