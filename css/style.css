@@ -71,6 +71,7 @@ section[id="404"] {
 header nav ul a {
     text-decoration: none;
     padding: 0 5px;
+    font-size: 0.90rem;
 }
 
 a {
