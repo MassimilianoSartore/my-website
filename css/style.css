@@ -18,7 +18,7 @@ header {
     padding: 0 15px;
     position: fixed;
     top: 0;
-    height: 50px;
+    height: 70px;
     width: 100%;
     background-color: #080A17;
     grid-area: header;
@@ -140,6 +140,7 @@ h2, h3 {
     position: absolute;
     right: 40px;
 }
+
   
 @media (min-width: 50em) {
     body {
@@ -156,6 +157,10 @@ h2, h3 {
 
     .nav-menu {
         visibility: visible;
+    }
+
+    header {
+        height: 50px;
     }
 }
 
