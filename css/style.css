@@ -147,6 +147,12 @@ h2, h3 {
     right: 40px;
 }
 
+.d_icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
   
 @media (min-width: 50em) {
     body {
